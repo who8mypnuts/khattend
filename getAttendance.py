@@ -1,8 +1,11 @@
 import pandas as pd
 import re
+import sys
 from datetime import date
 
-df = pd.read_csv('10182020.csv')
+file_name = sys.argv[1]
+
+df = pd.read_csv(file_name)
 total = 0
 noNumber = 0
 withoutNumber = set()
