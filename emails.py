@@ -9,8 +9,8 @@ def send_email(weekend, the_date):
 
     port = 465  # for ssl
 
-    sender_email = "sragets@gmail.com"
-    receiver_email = 'dickdickerson@juno.com'
+    sender_email = ""
+    receiver_email = ''
     if weekend == 0:
         subject = 'Midweek Meeting Attendance Report: ' + the_date
     else:
